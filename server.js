@@ -8,8 +8,8 @@
 var fs = require('fs');
 var express = require('express');
 var app = express();
-const fcc = require("./myApp");
-fcc();
+
+console.log("Hello World");
 
 if (!process.env.DISABLE_XORIGIN) {
   app.use(function(req, res, next) {
